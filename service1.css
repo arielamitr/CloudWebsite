@@ -1,0 +1,145 @@
+body {
+  background-color: rgba(237, 234, 228, 1);
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+table {
+  width: 100%;
+  margin: 30px;
+  list-style: none;
+  position: relative;
+  border-radius: 0.5;
+}
+
+th a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+th:hover {
+  text-decoration: underline;
+}
+
+th:nth-child(4){
+  text-decoration: underline;
+}
+
+.rectangle1 {
+  height: 150px;
+  width: 40%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(237, 234, 228, 1),
+    rgba(237, 234, 228, 1) 3px,
+    rgba(250, 70, 226, 1) 3px,
+    rgba(250, 70, 226, 1) 6px
+  );
+  outline-color: rgba(250, 70, 226, 1);
+  outline-style: solid;
+  object-position: right;
+  margin-right: -50px;
+  margin-left: 5%;
+  float: right;
+}
+
+.rectangle2 {
+  height: 550px;
+  width: 20%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(237, 234, 228, 1),
+    rgba(237, 234, 228, 1) 3px,
+    rgba(173, 134, 227) 3px,
+    rgba(173, 134, 227) 6px
+  );
+  outline-color: rgba(173, 134, 227);
+  outline-style: solid;
+  object-position: left;
+  margin-left: -20px;
+  margin-right: 5%;
+  float: left;
+  display: inline-flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.rectangle3 {
+  height: 900px;
+  width: 25%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(237, 234, 228, 1),
+    rgba(237, 234, 228, 1) 3px,
+    rgba(250, 70, 226, 1) 3px,
+    rgba(250, 70, 226, 1) 6px
+  );
+  outline-color: rgba(250, 70, 226, 1);
+  outline-style: solid;
+  object-position: right;
+  margin-right: -50px;
+  float: right;
+}
+
+h1{
+  object-position: left;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+p{
+  object-position: left;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+button{
+  object-position: left;
+  margin-top: 10px;
+  width: 16%;
+  font-family: 'Didact Gothic', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#linkedin-btn{
+  margin-left: 8%;
+}
+
+a {
+  color: rgba(250, 70, 226, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(128, 58, 224, 1);
+}
+
+img{
+  float: right;
+  object-position: right;
+  height: 200px;
+  margin-left: 3%;
+  margin-right: 5%;
+  border: solid;
+}
+
+#researchText{
+  width: 70%;
+}
+
+iframe {
+  object-position: left;
+  margin-left: 5%;
+  float: left;
+  width: 70%;
+}
+
+

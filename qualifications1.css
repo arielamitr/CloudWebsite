@@ -1,0 +1,133 @@
+body {
+  background-color: rgba(237, 234, 228, 1);
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+table {
+  width: 100%;
+  margin: 30px;
+  list-style: none;
+  position: relative;
+  border-radius: 0.5;
+}
+
+th a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+th:hover {
+  text-decoration: underline;
+}
+
+th:nth-child(3){
+  text-decoration: underline;
+}
+
+.rectangle1 {
+  height: 70%;
+  width: 30%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(237, 234, 228, 1),
+    rgba(237, 234, 228, 1) 3px,
+    rgba(196, 191, 22) 3px,
+    rgba(196, 191, 22) 6px
+  );
+  outline-color: rgba(196, 191, 22);
+  outline-style: solid;
+  object-position: left;
+  margin-left: 5%;
+  float: left;
+  z-index: -999;
+  position: absolute;
+}
+
+.rectangle2 {
+  height: 200px;
+  width: 30%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(237, 234, 228, 1),
+    rgba(237, 234, 228, 1) 3px,
+    rgba(50, 179, 82) 3px,
+    rgba(50, 179, 82) 6px
+  );
+  outline-color: rgba(50, 179, 82);
+  outline-style: solid;
+  object-position: bottom;
+  margin-left: -20px;
+  margin-right: 5%;
+  float: left;
+  margin-top: -150px;
+}
+
+.rectangle3 {
+  height: 100px;
+  width: 25%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(237, 234, 228, 1),
+    rgba(237, 234, 228, 1) 3px,
+    rgba(237, 144, 57) 3px,
+    rgba(237, 144, 57) 6px
+  );
+  outline-color: rgba(237, 144, 57);
+  outline-style: solid;
+  object-position: right;
+  margin-right: -50px;
+  float: right;
+}
+
+#titleHeading{
+  object-position: left;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+.bodyHeading{
+  object-position: left;
+  margin-left: 40%;
+  font-size: 40px;
+}
+
+ul{
+  object-position: left;
+  margin-left: 40%;
+  font-size: 18px;
+}
+
+p{
+  object-position: left;
+  margin-left: 40%;
+  font-size: 18px;
+}
+
+a {
+  color: rgba(250, 70, 226, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(128, 58, 224, 1);
+}
+
+video{
+  float: right;
+  object-position: right;
+  height: 500px;
+  margin-left: -10%;
+}
+
+iframe {
+  object-position: left;
+  margin-left: 6%;
+  margin-top: 1%;
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+
